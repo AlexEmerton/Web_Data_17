@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="recipies">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="recipe" type="RecType" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="RecType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="prep_time" type="xs:integer"/>
+            <xs:element name="cook_time" type="xs:integer"/>
+            <xs:element name="difficulty">
+                <xs:simpleType>
+                    <xs:restriction base ="xs:string">
+                        <xs:enumeration value="Easy"/>
+                        <xs:enumeration value="Moderately easy"/>
+                        <xs:enumeration value="For the keen cook"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="serves" type="xs:integer"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="ingredients" type="IngType" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="nutrition" type="NutType" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="vegetarian">
+                <xs:simpleType>
+                    <xs:restriction base ="xs:string">
+                        <xs:enumeration value="Yes"/>
+                        <xs:enumeration value="No"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:positiveInteger"/>
+    </xs:complexType>
+    
+    <xs:complexType name="IngType">
+        <xs:all>
+            <xs:element name="ingredient" type="xs:string"/>
+        </xs:all>
+        <xs:attribute name="id" type="xs:positiveInteger"/>
+    </xs:complexType>
+    
+    <xs:complexType name="NutType">
+        <xs:sequence>
+            <xs:element name="kcal" type="xs:string"/>
+            <xs:element name="fat" type="xs:string"/>
+            <xs:element name="sat" type="xs:string"/>
+            <xs:element name="carbs" type="xs:string"/>
+            <xs:element name="sugars" type="xs:string"/>
+            <xs:element name="fibre" type="xs:string"/>
+            <xs:element name="protein" type="xs:string"/>
+            <xs:element name="salt" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>  
+</xs:schema>

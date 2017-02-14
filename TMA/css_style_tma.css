@@ -1,0 +1,29 @@
+table {
+    width:100%;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table tr:nth-child(even) {
+    background-color: #c8d1cc;
+}
+table tr:nth-child(odd) {
+   background-color: #e1e8e4;
+}
+table th {
+    background-color: #0d823f;
+    color: white;
+}
+
+table td#t1::after {
+    content: " min";
+}
+
+table td#t2::after {
+    content: " min";
+}
