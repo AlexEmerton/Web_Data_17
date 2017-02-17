@@ -32,13 +32,15 @@
                             <td><xsl:value-of select="difficulty"/></td>
                             <td><xsl:value-of select="serves"/></td>
                             <td><xsl:value-of select="description"/></td>
-                            <td><xsl:for-each select=".//ingredients">
+                            <td><xsl:for-each select="ingredients/ingredient">
                                 <ul>
-                                    <li><xsl:value-of select="ingredient"/></li>
+                                    <li>
+                                        <xsl:value-of select="self::node()"/>
+                                    </li>
                                 </ul>
                                 </xsl:for-each>
                             </td>
-                            <td><xsl:for-each select=".//nutrition">
+                            <td><xsl:for-each select="nutrition">
                                 <ul>
                                     <li><xsl:value-of select="kcal"/></li>
                                     <li><xsl:value-of select="fat"/></li>
