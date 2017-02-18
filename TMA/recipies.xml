@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="style_tma.xsl"?>
-<recipies>
+<?xml-stylesheet type="text/xsl" href="recipies.xsl"?>
+<recipies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="recipies.xsd">
     <recipe id="1">
         <name>Mexican chicken burger</name>
         <prep_time>10</prep_time>
@@ -9,15 +10,15 @@
         <serves>1</serves>
         <description>Ready in under 20 minutes, this burger with spiced chipotle chicken breast, in toasted brioche with guacamole, makes for a satisfying weeknight treat for one</description>
         <ingredients>
-            <ingredient id="1">1 chicken breast</ingredient>
-            <ingredient id="2">1 tsp chipotle paste</ingredient>
-            <ingredient id="3">1 lime, juiced</ingredient>
-            <ingredient id="4">1-2 slices cheese</ingredient>
-            <ingredient id="5">1 brioche bun, split</ingredient>
-            <ingredient id="6">1/2 avocado</ingredient>
-            <ingredient id="7">2 cherry tomatoes, chopped</ingredient>
-            <ingredient id="8">3-4 pickled jalapeno slices, chopped</ingredient>
-            <ingredient id="9">1/2 small garlic clove, finely grated</ingredient>
+            <ingredient>1 chicken breast</ingredient>
+            <ingredient>1 tsp chipotle paste</ingredient>
+            <ingredient>1 lime, juiced</ingredient>
+            <ingredient>1-2 slices cheese</ingredient>
+            <ingredient>1 brioche bun, split</ingredient>
+            <ingredient>1/2 avocado</ingredient>
+            <ingredient>2 cherry tomatoes, chopped</ingredient>
+            <ingredient>3-4 pickled jalapeno slices, chopped</ingredient>
+            <ingredient>1/2 small garlic clove, finely grated</ingredient>
         </ingredients>
         <nutrition>
             <kcal>Kcal - 709</kcal>
@@ -40,14 +41,14 @@
         <serves>6</serves>
         <description>This nutty pistachio sponge has a layer of sweet, black cherry jam that'll leave you wanting more. It's an impressive party dessert yet simple to make</description>
         <ingredients>
-            <ingredient id="10">100g golden caster sugar</ingredient>
-            <ingredient id="11">100g butter, softened at room temperature</ingredient>
-            <ingredient id="12">2 large eggs</ingredient>
-            <ingredient id="13">60g pistachio paste</ingredient>
-            <ingredient id="14">25g plain flour</ingredient>
-            <ingredient id="15">90g ground almonds</ingredient>
-            <ingredient id="16">150g black cherry jam</ingredient>
-            <ingredient id="17">1 large ready-made cooked pastry case</ingredient>
+            <ingredient>100g golden caster sugar</ingredient>
+            <ingredient>100g butter, softened at room temperature</ingredient>
+            <ingredient>2 large eggs</ingredient>
+            <ingredient>60g pistachio paste</ingredient>
+            <ingredient>25g plain flour</ingredient>
+            <ingredient>90g ground almonds</ingredient>
+            <ingredient>150g black cherry jam</ingredient>
+            <ingredient>1 large ready-made cooked pastry case</ingredient>
         </ingredients>
         <nutrition>
             <kcal>Kcal - 619</kcal>
@@ -70,21 +71,21 @@
         <serves>6</serves>
         <description>For a more authentic chilli with a depth of flavour, use diced belly pork, beef steak and pancetta and slowly simmer</description>
         <ingredients>
-            <ingredient id="18">500g lean belly pork slices</ingredient>
-            <ingredient id="19">700g skirt steak or lean stewing beef</ingredient>
-            <ingredient id="20">75g diced pancetta or rashers rindless smoked streaky bacon</ingredient>
-            <ingredient id="21">2 tbsp olive oil</ingredient>
-            <ingredient id="22">2 onions, chopped</ingredient>
-            <ingredient id="23">4 garlic cloves, finely chopped</ingredient>
-            <ingredient id="24">1 unwaxed lemon</ingredient>
-            <ingredient id="25">3 tbsp Mexican chilli powder or the milder dulce pimenton powder</ingredient>
-            <ingredient id="26">1 tsp ground cumin</ingredient>
-            <ingredient id="27">1 tbsp flour</ingredient>
-            <ingredient id="28">2 bay leaves</ingredient>
-            <ingredient id="29">2 tbsp tomato puree</ingredient>
-            <ingredient id="30">300ml red wine</ingredient>
-            <ingredient id="31">450ml chicken or beef stock</ingredient>
-            <ingredient id="32">400g can black beans, drained and rinsed</ingredient>
+            <ingredient>500g lean belly pork slices</ingredient>
+            <ingredient>700g skirt steak or lean stewing beef</ingredient>
+            <ingredient>75g diced pancetta or rashers rindless smoked streaky bacon</ingredient>
+            <ingredient>2 tbsp olive oil</ingredient>
+            <ingredient>2 onions, chopped</ingredient>
+            <ingredient>4 garlic cloves, finely chopped</ingredient>
+            <ingredient>1 unwaxed lemon</ingredient>
+            <ingredient>3 tbsp Mexican chilli powder or the milder dulce pimenton powder</ingredient>
+            <ingredient>1 tsp ground cumin</ingredient>
+            <ingredient>1 tbsp flour</ingredient>
+            <ingredient>2 bay leaves</ingredient>
+            <ingredient>2 tbsp tomato puree</ingredient>
+            <ingredient>300ml red wine</ingredient>
+            <ingredient>450ml chicken or beef stock</ingredient>
+            <ingredient>400g can black beans, drained and rinsed</ingredient>
         </ingredients>
         <nutrition>
             <kcal>Kcal - 555</kcal>
