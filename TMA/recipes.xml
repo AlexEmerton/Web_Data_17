@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://titan.dcs.bbk.ac.uk/~adjuma01/wd/wdtma/recipes.xsl"?>
+<recipies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="http://titan.dcs.bbk.ac.uk/~adjuma01/wd/wdtma/recipes.xsd">
+    <recipe id="1">
+        <name>Mexican chicken burger</name>
+        <prep_time>10</prep_time>
+        <cook_time>8</cook_time>
+        <difficulty>Easy</difficulty>
+        <serves>1</serves>
+        <description>Ready in under 20 minutes, this burger with spiced chipotle chicken breast, in toasted brioche with guacamole, makes for a satisfying weeknight treat for one</description>
+        <ingredients>
+            <ingredient>1 chicken breast</ingredient>
+            <ingredient>1 tsp chipotle paste</ingredient>
+            <ingredient>1 lime, juiced</ingredient>
+            <ingredient>1-2 slices cheese</ingredient>
+            <ingredient>1 brioche bun, split</ingredient>
+            <ingredient>1/2 avocado</ingredient>
+            <ingredient>2 cherry tomatoes, chopped</ingredient>
+            <ingredient>3-4 pickled jalapeno slices, chopped</ingredient>
+            <ingredient>1/2 small garlic clove, finely grated</ingredient>
+        </ingredients>
+        <nutrition>
+            <kcal>709</kcal>
+            <fat>34</fat>
+            <sat>16</sat>
+            <carbs>52</carbs>
+            <sugars>15</sugars>
+            <fibre>5</fibre>
+            <protein>46</protein>
+            <salt>2.2</salt>
+        </nutrition>
+        <vegetarian>No</vegetarian>
+    </recipe>
+    
+    <recipe id="2">
+        <name>Pistachio &amp; black cherry Bakewell tart</name>
+        <prep_time>15</prep_time>
+        <cook_time>35</cook_time>
+        <difficulty>Easy</difficulty>
+        <serves>6</serves>
+        <description>This nutty pistachio sponge has a layer of sweet, black cherry jam that'll leave you wanting more. It's an impressive party dessert yet simple to make</description>
+        <ingredients>
+            <ingredient>100g golden caster sugar</ingredient>
+            <ingredient>100g butter, softened at room temperature</ingredient>
+            <ingredient>2 large eggs</ingredient>
+            <ingredient>60g pistachio paste</ingredient>
+            <ingredient>25g plain flour</ingredient>
+            <ingredient>90g ground almonds</ingredient>
+            <ingredient>150g black cherry jam</ingredient>
+            <ingredient>1 large ready-made cooked pastry case</ingredient>
+        </ingredients>
+        <nutrition>
+            <kcal>619</kcal>
+            <fat>37</fat>
+            <sat>13</sat>
+            <carbs>59</carbs>
+            <sugars>40</sugars>
+            <fibre>2</fibre>
+            <protein>11</protein>
+            <salt>0.6</salt>
+        </nutrition>
+        <vegetarian>Yes</vegetarian>
+    </recipe>
+    
+    <recipe id="3">
+        <name>Ultimate chilli con carne</name>
+        <prep_time>75</prep_time>
+        <cook_time>120</cook_time>
+        <difficulty>Moderately easy</difficulty>
+        <serves>6</serves>
+        <description>For a more authentic chilli with a depth of flavour, use diced belly pork, beef steak and pancetta and slowly simmer</description>
+        <ingredients>
+            <ingredient>500g lean belly pork slices</ingredient>
+            <ingredient>700g skirt steak or lean stewing beef</ingredient>
+            <ingredient>75g diced pancetta or rashers rindless smoked streaky bacon</ingredient>
+            <ingredient>2 tbsp olive oil</ingredient>
+            <ingredient>2 onions, chopped</ingredient>
+            <ingredient>4 garlic cloves, finely chopped</ingredient>
+            <ingredient>1 unwaxed lemon</ingredient>
+            <ingredient>3 tbsp Mexican chilli powder or the milder dulce pimenton powder</ingredient>
+            <ingredient>1 tsp ground cumin</ingredient>
+            <ingredient>1 tbsp flour</ingredient>
+            <ingredient>2 bay leaves</ingredient>
+            <ingredient>2 tbsp tomato puree</ingredient>
+            <ingredient>300ml red wine</ingredient>
+            <ingredient>450ml chicken or beef stock</ingredient>
+            <ingredient>400g can black beans, drained and rinsed</ingredient>
+        </ingredients>
+        <nutrition>
+            <kcal>555</kcal>
+            <fat>29</fat>
+            <sat>9</sat>
+            <carbs>12</carbs>
+            <sugars>4</sugars>
+            <fibre>4</fibre>
+            <protein>51</protein>
+            <salt>1.9</salt>
+        </nutrition>
+        <vegetarian>No</vegetarian>
+    </recipe>
+	
+	<recipe id="4">
+        <name>Gnocchi with mushrooms and blue cheese</name>
+        <prep_time>12</prep_time>
+        <cook_time>8</cook_time>
+        <difficulty>Easy</difficulty>
+        <serves>4</serves>
+        <description>Soft, creamy goat's cheese or a deliciously strong blue cheese both work well in this easy veggie supper that's on the table in just 20 minutes</description>
+        <ingredients>
+            <ingredient>2 x 400g packs fresh gnocchi</ingredient>
+            <ingredient>1 tbsp olive oil</ingredient>
+            <ingredient>knob of butter</ingredient>
+            <ingredient>1 large onion, roughly chopped</ingredient>
+            <ingredient>500g small Forestiere or Portobello mushrooms, sliced</ingredient>
+            <ingredient>2 large garlic cloves, chopped</ingredient>
+            <ingredient>2 cherry tomatoes, chopped</ingredient>
+            <ingredient>150g pack creamy blue cheese</ingredient>
+            <ingredient>small pack parsley, chopped</ingredient>
+        </ingredients>
+        <nutrition>
+            <kcal>471</kcal>
+            <fat>15</fat>
+            <sat>8</sat>
+            <carbs>63</carbs>
+            <sugars>8</sugars>
+            <fibre>8</fibre>
+            <protein>16</protein>
+            <salt>2.7</salt>
+        </nutrition>
+        <vegetarian>Yes</vegetarian>
+    </recipe>
+    
+</recipies>
