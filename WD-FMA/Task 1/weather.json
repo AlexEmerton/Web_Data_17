@@ -1,0 +1,41 @@
+{
+	"weather":[
+		{
+			"city_id":1,
+			"city_name":"Norwich",
+			"current_cond":"Sunny",
+			"temperature":"+15 &deg;C",
+			"wind_speed":"9 mph",
+			"wind_dir":"WSW",
+			"wind_chill":"+13 &deg;C"
+		},
+		{
+			"city_id":2,
+			"city_name":"Fort William",
+			"current_cond":"Heavy clouds",
+			"temperature":"+12 &deg;C",
+			"wind_speed":"9 mph",
+			"wind_dir":"NW",
+			"wind_chill":"+8 &deg;C"
+		},
+		{
+			"city_id":3,
+			"city_name":"Brighton",
+			"current_cond":"Cloudy",
+			"temperature":"+17 &deg;C",
+			"wind_speed":"7 mph",
+			"wind_dir":"SW",
+			"wind_chill":"+9 &deg;C"
+		},
+		{
+			"city_id":4,
+			"city_name":"Peterborough",
+			"current_cond":"Cloudy",
+			"temperature":"+14 &deg;C",
+			"wind_speed":"10 mph",
+			"wind_dir":"W",
+			"wind_chill":"+12 &deg;C"
+		}
+	]
+
+}

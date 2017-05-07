@@ -1,0 +1,47 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "UK Weather",
+    "description": "WD FMA - Task 1",
+    "type": "object",
+	
+	properties: {
+		"weather": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"city_id":{
+						"description": "The unique identifier for a city",
+						"type": "integer",
+						"minimum": 0,
+						"exclusiveMinimum": true
+					},
+					"city_name": {
+						"description": "Name of the city",
+						"type": "string"
+					},
+					"current_cond": {
+						"description": "Current weather conditions",
+						"type": "string"
+					},
+					"temperature": {
+						"description": "Current temperature",
+						"type": "string"
+					},
+					"wind_speed": {
+						"description": "Wind speed",
+						"type": "string"
+					},
+					"wind_dir": {
+						"description": "Wind direction",
+						"type": "string"
+					},
+					"wind_chill": {
+						"description": "Wind chill factor / Feels like temperature",
+						"type": "string"
+					}
+				}
+			}
+		},
+	}
+}
