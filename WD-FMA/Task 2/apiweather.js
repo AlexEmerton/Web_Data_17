@@ -52,6 +52,7 @@
         return "Northerly";
     }
 	
+	 
 	function toMPH(speed){
 		speed = speed * 2.23694;
 		return speed;
